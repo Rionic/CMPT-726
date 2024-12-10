@@ -1,0 +1,24 @@
+### Multiple Choice Questions: Exploring Stochastic Gradient Descent
+### Instructions:
+# Below, you will find the multiple-choice questions related to stochastic gradient descent.
+# Place an '[X]' in front of your chosen answer for each question.
+# This should be the ONLY edit you make in this file.
+# Please save this file with the standard name: 'sgd_mc_answers.txt'.
+
+1. Why is stochastic gradient descent (SGD) called "stochastic"?
+    [X] (a) Because it uses random mini-batches of data to approximate the gradient.
+    [ ] (b) Because it computes the gradient over the entire dataset.
+    [ ] (c) Because the learning rate changes at each step.
+    [ ] (d) Because it always converges faster.
+
+2. What is the effect of initializing all weights to zero in a neural network?
+    [X] (a) All neurons in a layer receive identical gradients and learn the same features.
+    [ ] (b) The network will converge faster due to symmetry.
+    [ ] (c) Stochastic updates will make neurons learn distinct features.
+    [ ] (d) Zero initialization always helps prevent overfitting.
+
+3. Could true stochastic gradient descent overcome the problem of zero-initialized weights?
+    [ ] (a) Yes, because random mini-batches would introduce sufficient variability.
+    [X] (b) No, because all neurons have identical weights and thus receive identical gradients, regardless of mini-batch variability.
+    [ ] (c) Yes, because SGD inherently breaks symmetry.
+    [ ] (d) No, but adding bias terms would always fix it.
